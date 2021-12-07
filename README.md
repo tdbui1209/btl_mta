@@ -1,5 +1,6 @@
 
-File main.py mình chạy thử với 10 điểm, và mỗi điểm nối tới ít nhất là 0 điểm, tối đa 5 điểm.
+File main.py mình chạy thử với map có 10 điểm, và mỗi điểm nối tới ít nhất là 0 điểm, tối đa 5 điểm.<br>
+Bắt đầu từ <b>6</b>, kết thúc là <b>2</b>.
 
 <hr>
 
