@@ -32,7 +32,7 @@ def AStar(start, target, my_map, costs):
         if curPoint != target:
             for point in my_map[curPoint].keys():  # Các điểm có thể đi đến được từ curPoint
                 pointTotalCost = previous[point]['total_cost']  # Chi phí được tính ở bước trước đó
-                totalCost = my_map[curPoint][point]['cost'] + curCityTotalCost + costs[
+                totalCost = my_map[curPoint][point]['distance'] + curCityTotalCost + costs[
                     point]  # Chi phí để đi từ start -> curPoint -> target
 
                 # Nếu chưa đi qua điểm này hoặc chi phi đi từ start -> curPoint -> target tốt hơn chi phí trước đó

@@ -72,11 +72,11 @@ def rand_map(n_points=1000, max_next_node=500):
 
             distance = euclidean_distance(x1, y1, x2, y2)
 
-            my_map[i][next_node] = {'cost': distance}
+            my_map[i][next_node] = {'distance': distance}
 
             if next_node not in my_map.keys():
                 my_map[next_node] = {}
-            my_map[next_node][i] = {'cost': distance}
+            my_map[next_node][i] = {'distance': distance}
 
     if not os.path.exists('./data'):
         os.mkdir('./data')
