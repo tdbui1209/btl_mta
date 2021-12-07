@@ -1,5 +1,5 @@
 
-File main.py mình chạy thử với 10 điểm, và mỗi điểm nối tới ít nhất là 0 điểm, tối đa 3 điểm.
+File main.py mình chạy thử với 10 điểm, và mỗi điểm nối tới ít nhất là 0 điểm, tối đa 5 điểm.
 
 <hr>
 
